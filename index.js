@@ -66,4 +66,30 @@ const questions = [
     },
 ];
 
+// function to write README file
+function writeToFile(fileName, data) {
+}
+
+// function to initialize program
+function init() {
+    inquirer.prompt(questions).
+    then(answers => {
+        console.log(answers)
+        const read = generateMarkdown(answers)
+
+        fs.writeFile('readme.md', read , 'utf8', err => {
+            if (err) {
+                throw err;
+            }
+        });
+    })
+ }
+
+//  fs.readFile("readme.md", "utf8", function(err, data) {
+//       console.log(data)
+//  })
+
+
+// Function call to initialize app
+init();
 
