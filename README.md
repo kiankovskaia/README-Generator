@@ -5,7 +5,10 @@ The created Read ME file is saved in Output folder.
 #Demo
 
 ![README Generator demo](output/readme-generator-demo.gif)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 14c7c8c3a67091dbe92d447ac8bf6f9cdf8b899d
 ## Your Task
 
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
