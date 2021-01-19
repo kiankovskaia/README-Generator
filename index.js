@@ -61,9 +61,9 @@ const questions = [
     },
     {
     type: "input",
-    question: "Enter contact information for additional questions",
+    question: "Enter your GitHub username",
     name: "Questions"
-    },
+    }
 ];
 
 // function to write README file
@@ -77,17 +77,13 @@ function init() {
         console.log(answers)
         const read = generateMarkdown(answers)
 
-        fs.writeFile('readme.md', read , 'utf8', err => {
+        fs.writeFile('output/readme.md', read , 'utf8', err => {
             if (err) {
                 throw err;
             }
         });
     })
  }
-
-//  fs.readFile("readme.md", "utf8", function(err, data) {
-//       console.log(data)
-//  })
 
 
 // Function call to initialize app
