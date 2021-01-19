@@ -16,14 +16,13 @@ function generateMarkdown(data) {
 
 ${data.Description}
 
-[1-Installation](#installation)
-[2-Usage](#usage)
-[3-Credits](#credits)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Credits](#credits)
 
 ## Installation
 
 ${data.Installation}
-
 
 ## Usage
 
