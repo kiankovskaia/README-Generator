@@ -14,6 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.Title} 
 
+  Table of Contents
+
 ${data.Description}
 
 1. [Installation](#installation)
@@ -40,6 +42,8 @@ ${data.Credits}
 ## License
 
 ${data.License}
+
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 ## Contributing
 

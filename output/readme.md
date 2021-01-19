@@ -1,6 +1,8 @@
-# Project 
+# ReadMe Generator 
 
-test
+  Table of Contents
+
+This software allows users to creat a readme file using a terminal
 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -13,33 +15,35 @@ test
 
 ## Installation
 
-test
+download github files and install npm package
 
 ## Usage
 
-test
+generate a readme markdown
 
 ## Credits
 
-test
+Kristina Iankovskaia
 
 ## License
 
 MIT
 
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
 ## Contributing
 
-test
+Everyone can contribute and make next version of the app
 
 ## Tests
 
-test
+N/A
 
 ## Contact
 
-email
+kiankovskaia@gmail.com
 
 ## Questions
 
-[Contact me on GitHub for additional information](https://github.com/kainkovskaia)
+[Contact me on GitHub for additional information](https://github.com/kiankovskaia)
 

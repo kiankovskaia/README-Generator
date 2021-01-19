@@ -63,7 +63,7 @@ const questions = [
     type: "input",
     question: "Enter your GitHub username",
     name: "Questions"
-    }
+    },
 ];
 
 // function to write README file
