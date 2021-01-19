@@ -10,32 +10,32 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
     type: "input",
-    question: "Please, enter your project title:",
+    message: "Please, enter your project title:",
     name: "Title"
     },
     {
     type: "input",
-    question: "Describe your application",
+    message: "Describe your application",
     name: "Description"
     },
     {
     type: "input",
-    question: "Provide installation process info",
+    message: "Provide installation process info",
     name: "Installation"
     },
     {
     type: "input",
-    question: "It's helpful to have inline the smallest example of usage that you can demonstrate.",
+    message: "It's helpful to have inline the smallest example of usage that you can demonstrate.",
     name: "Usage"
     },
     {
     type: "input",
-    question: "Who was involved in the making of this code?",
+    message: "Who was involved in the making of this code?",
     name: "Credits"
     },
     {
     type: "list",
-    question: "What license do you have",
+    message: "What license do you have",
     name: "License",
     choices: [
         "MIT",
@@ -46,22 +46,22 @@ const questions = [
     },
     {
     type: "input",
-    question: "Enter the contribution guidelines",
+    message: "Enter the contribution guidelines",
     name: "Contributing"
     },
     {
     type: "input",
-    question: "Include tests here",
+    message: "Include tests here",
     name: "Tests"
     },
     {
     type: "input",
-    question: "What is your Email Address?",
+    message: "What is your Email Address?",
     name: "Contact"
     },
     {
     type: "input",
-    question: "Enter your GitHub username",
+   message: "Enter your GitHub username",
     name: "Questions"
     },
 ];

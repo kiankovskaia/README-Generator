@@ -1,8 +1,8 @@
-# ReadMe Generator 
+# Read me Generator 
 
   Table of Contents
 
-This software allows users to creat a readme file using a terminal
+ths sofware allows users to create a read me file using a terminal
 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -15,7 +15,7 @@ This software allows users to creat a readme file using a terminal
 
 ## Installation
 
-download github files and install npm package
+download github files and instal npm package
 
 ## Usage
 
@@ -23,7 +23,7 @@ generate a readme markdown
 
 ## Credits
 
-Kristina Iankovskaia
+Kristin Iankovskaia / me =)
 
 ## License
 
@@ -41,7 +41,7 @@ N/A
 
 ## Contact
 
-kiankovskaia@gmail.com
+k.iankovskaia@gmail.com
 
 ## Questions
 
